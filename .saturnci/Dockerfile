@@ -9,7 +9,7 @@
 # Use ruby:4.0.1-slim as the base image. This provides a pre-built Linux
 # environment with Ruby already installed. The "slim" version contains only
 # essential packages, making it smaller and faster to download.
-FROM ruby:4.0.1-slim
+FROM ruby:3.3.5-slim
 
 # Set /app as the working directory. All subsequent commands will run from here.
 WORKDIR /app
